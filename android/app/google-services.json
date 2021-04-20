@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "611790879977",
+    "firebase_url": "https://loja-virtual-bc001.firebaseio.com",
+    "project_id": "loja-virtual-bc001",
+    "storage_bucket": "loja-virtual-bc001.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:611790879977:android:db9274031adc30f4770478",
+        "android_client_info": {
+          "package_name": "br.com.fernandocastro.loja_virtual"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "611790879977-p3c7oa9au3b44sfs28v1qhppq1itgl9e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.fernandocastro.loja_virtual",
+            "certificate_hash": "2a7426e89c1e4c739c664c66eefe0da6ab7a3241"
+          }
+        },
+        {
+          "client_id": "611790879977-9htebmq9skqrlbkhmq8go9dld6eng3bh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPVdD-xykTP1HT7sGIzufcjT2daHGfbHU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "611790879977-9htebmq9skqrlbkhmq8go9dld6eng3bh.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "611790879977-61kaf6ims2bi4j7mhc79bqlh5438saek.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "br.com.fernandocastro.lojaVirtual"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
