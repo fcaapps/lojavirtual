@@ -1,6 +1,7 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:loja_virtual/screens/base/base_screen.dart';
 
 // ignore: avoid_void_async
 void main() async {
@@ -56,26 +57,16 @@ void main() async {
 }
 
 class MyApp extends StatelessWidget {
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      title: 'Loja do Fernando',
       debugShowCheckedModeBanner: false,
-      title: 'Flutter Demo',
       theme: ThemeData(
         primarySwatch: Colors.blue,
+        visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: Material(
-        child: Container(
-          color: Colors.red,
-          child: const Center(
-            child: Text(
-              'Testando',
-              style: TextStyle(fontSize: 30, color: Colors.white),
-            ),
-          ),
-        ),
-      ),
+      home: BaseScreen(),
     );
   }
 }
